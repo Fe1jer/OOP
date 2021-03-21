@@ -17,17 +17,17 @@ namespace Test.Models
             count = 0;
         }
 
-        public Prisoner()
-        {
-
-        }
-
         public Prisoner(string name, int year, string article)
         {
             this.name = name;
             this.period = year;
             this.article = article;
             count++;
+        }
+
+        ~Prisoner()
+        {
+            count--;
         }
     }
 }

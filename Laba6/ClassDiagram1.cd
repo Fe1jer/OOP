@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Laba6.Controller.MainController">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\MainController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laba6.Models.Base.OneDimensionalArrays">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAACAAAAAAAAAAAAAAAAIAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Base\OneDimensionalArrays.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laba6.Models.Tasks.Task">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEAAAAAAAAAAAAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Tasks\Task.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laba6.Program">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

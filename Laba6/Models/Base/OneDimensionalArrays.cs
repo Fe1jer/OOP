@@ -21,11 +21,35 @@ namespace Laba6.Models.Base
                 input = Console.ReadLine();
                 if (int.TryParse(input, out number))
                 {
-                    break;
+                    if(number >= 0)
+                    {
+                        break;
+                    }
                 }
             }
 
             return number;
+        }
+
+        public static int[] RandomInit(int size)
+        {
+            int[] array = new int[size];
+            Random random = new Random();
+            for (int i = 0; i < size; i++)
+            {
+                array[i] = random.Next(-50, 50);
+            }
+            return array;
+        }
+
+        public static void PrintArray(int[] array)
+        {
+            string msg = "Array: ";
+            foreach (int number in array)
+            {
+                msg += number.ToString() + " ";
+            }
+            Console.WriteLine(msg);
         }
     }
 }
